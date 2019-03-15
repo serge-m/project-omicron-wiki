@@ -8,4 +8,4 @@
 
 4. Where can I read about ML/AI?
 
-5. <any other question>
+5. ...
