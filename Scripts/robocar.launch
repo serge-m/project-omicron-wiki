@@ -3,4 +3,5 @@
 	<include file="$(find joy_teleop)/launch/example.launch" />
 	<include file="$(find steering)/launch/steering.launch" />
 	<include file="$(find throttle)/launch/throttle.launch" />
+	<include file="$(find pca9685)/launch/pca9685.launch" />
 </launch>
