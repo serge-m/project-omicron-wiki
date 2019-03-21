@@ -1,0 +1,6 @@
+<launch>
+	<include file="$(find joy)/launch/ps4joy.launch" />
+	<include file="$(find joy_teleop)/launch/example.launch" />
+	<include file="$(find steering)/launch/steering.launch" />
+	<include file="$(find throttle)/launch/throttle.launch" />
+</launch>
