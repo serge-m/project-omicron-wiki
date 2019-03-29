@@ -1,0 +1,7 @@
+<launch>
+  <!-- assumes ds4drv is running -->
+  <node name="mux" pkg="topic_tools" type="mux" args="ackermann_cmd_mux/output ackermann_cmd_mux/input/human_driver ackermann_cmd_mux/input/ai_driver">
+    <remap from="mux" to="ackermann_cmd_mux"/>
+    <param name="initial_topic" value="ackermann_cmd_mux/input/human_driver" />
+  </node>
+</launch>
