@@ -1,8 +1,8 @@
 <launch>
 	<include file="$(find joy)/launch/ps4joy.launch" />
 	<include file="$(find joy_teleop)/launch/example.launch" />
-	<include file="$(find steering)/launch/steering.launch" />
-	<include file="$(find throttle)/launch/throttle.launch" />
+	<include file="$(find steering)/launch/run.launch" />
+	<include file="$(find throttle)/launch/run.launch" />
 	<include file="$(find pca9685)/launch/pca9685.launch" />
 	<include file="$(find raspicam_node)/launch/camerav2_410x308_30fps.launch" />
 	<include file="$(find rosbag_recorder)/launch/rosbag_recorder.launch" />
