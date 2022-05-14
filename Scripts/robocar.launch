@@ -6,5 +6,6 @@
 	<include file="$(find pca9685)/launch/pca9685.launch" />
 	<include file="$(find raspicam_node)/launch/camerav2_410x308_30fps.launch" />
 	<include file="$(find rosbag_recorder)/launch/rosbag_recorder.launch" />
+	<include file="$(find ai_driver)/launch/ai_driver.launch" />
 	<include file="launch/ackermann_cmd_mux.launch" />
 </launch>
